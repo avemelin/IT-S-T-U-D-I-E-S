@@ -1,0 +1,109 @@
+body{
+    background-color: #EFEAE7;
+
+}
+
+.main_block{
+    margin-top:50px ;
+    margin-left: 142px;
+    margin-right: 141px;
+    display: grid;    
+}
+
+.main_first{
+    background-color: #382C39;
+    height: 600px;
+    width: 800px;
+    font-family: "Bebas Neue", sans-serif;
+    opacity: 100%;   
+    border-radius: 50px;
+    position: relative;
+
+}
+.text_menu{
+    display: flex;
+    justify-content: space-between;
+    height: 17px;
+    width: 393px;
+    margin-top:32px;
+    margin-left: 334px;
+    font-size: 15px;
+    
+}
+a{
+    color: #EFEAE7;
+    text-decoration: none;
+    opacity: 70%;
+}
+
+section{
+    margin-left: 54px;
+    margin-top: 60px;
+    border-radius: 50px;
+    height: 350px;
+
+    background-color: wheat;
+    
+}
+
+.about{
+    color: #EFEAE7;
+    text-decoration: none;
+    opacity: 80%;
+    top: 15px;
+   
+}
+
+.back{
+    position:absolute;
+    left: 0;
+    
+}
+
+.iphone_handle{
+    position: absolute;
+    width: 240px;
+    right: -30px;
+    top: 65px;
+    opacity: 70%;
+}
+
+.contact{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+
+.about h1{
+    font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: 0%;
+    
+}
+
+.about h3{
+    margin-top: 0;
+    margin-bottom: 17px;
+    font-size: 40px;
+
+}
+.about p{
+    font-size:2opx;
+    opacity: 60%;
+}
+
+.qwe{
+    position: absolute;
+    height: 145px;
+    width: 300px;
+    background-color: #EFEAE7;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    border-radius: 50px;
+    
+}
+
+
+
