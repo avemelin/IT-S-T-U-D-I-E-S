@@ -1,12 +1,12 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
+{% extends 'base.html' %}
+{% load static %}
+
+{% block extrahead %}
   <title>IT- S T U D I E S</title>
-  <link rel="stylesheet" href="main.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
-</head>
+  <link rel="stylesheet" href="{% static '/welcome/css/main.css' %}">
+{% endblock %}
+
+{% block content %}
 <body>
     <div class="main_block">
         <div class="main_first">
@@ -18,7 +18,7 @@
                 <a href="#">Контакты</a>
             </div>
             <section>
-                <img src="img/iphone.png" class="back">
+                <img src="{% static '/welcome/images/iphone.png' %}" class="back">
                 <div class="about">
                     <h1>РАЗРАБОТКА</h1>
                     <h3>ДЛЯ ВАШЕГО ПРОДУКТА</h3>
@@ -27,7 +27,7 @@
                     <br>поддерживаем и развиваем цифровые
                     <br>продукты.</p>
                 </div>
-                <img src="img/iphone_handle.png" class="iphone_handle">
+                <img src="{% static '/welcome/images/iphone_handle.png' %}" class="iphone_handle">
                 
             </section>
             
@@ -92,7 +92,6 @@
             <div class="photo_team">
             </div>
 
-
             <div>
                 <h2 class="section__h2">МЫ СОБРАЛИ
                     <br>СПЕЦИАЛИСТОВ
@@ -134,5 +133,5 @@
     </div>
 
 </body>
-</html>
+{% endblock %}
 
